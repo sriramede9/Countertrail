@@ -16,18 +16,21 @@ index++;
 // m();
 
 setTimeout(() => {
+  h.classList.toggle("fade");
   h.innerText=index;
 m();
-}, 1000);
+}, 500);
 }
 function dec(e){
   e.preventDefault();
   index--;
 
   setTimeout(() => {
+    h.classList.toggle("fade");
+
     h.innerText=index;
   m();
-  }, 1000);
+  }, 500);
   
 }
 function m(){

@@ -24,3 +24,11 @@ button{
   background-color: chocolate;
   border: none;
 }
+
+#h{
+  opacity: 1;
+  transition: opacity 1s;
+}
+#h.fade {
+opacity: 0;
+}
